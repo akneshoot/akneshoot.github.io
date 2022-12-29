@@ -4,7 +4,8 @@
 .wrapper {
     position: relative;
     margin-top: 100px;
-    margin-left: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 100px;
     width: 60%;
     display: flex;
