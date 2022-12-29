@@ -155,13 +155,18 @@ section{
 @media (max-width: 736px) {
 
     .container1 {
-        width: 100%;
-        margin-left: 15px;
-        margin-right: 10px;
+        
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 290px;
+        min-width: 200px;
+        
     }
     form  {
         text-align: center;
+        
     }
+    
 
 
     
