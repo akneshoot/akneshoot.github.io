@@ -4,7 +4,7 @@
 .wrapper {
     position: relative;
     margin-top: 100px;
-    left: 400px;
+    margin-left: 400px;
     margin-bottom: 100px;
     width: 60%;
     display: flex;
@@ -146,6 +146,8 @@ button:focus {
 @media (max-width: 736px) {
     .wrapper {
         width: 100%;
+        margin-left: 0px;
+        
     }
 
     .container {
