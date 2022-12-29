@@ -34,3 +34,53 @@
 .story > p{
     margin-bottom: 4px;
 }
+@media (max-width:991px){
+    #obtek{
+        width: 80%;
+        margin-left: 10px;
+        margin-right: 200px;
+    }
+    .osnova h1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    footer{
+        padding: 40px;
+    }
+    footer .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .copyrightText{
+        
+        padding: 8px 40px;
+        
+    }
+    .story{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Sono', sans-serif;
+    
+    font-size: 26px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: url("https://i.pinimg.com/564x/83/43/d7/8343d7ea789256780603ed03a6c4d7df.jpg");
+    }
+}
+@media (max-width:768px){
+    footer .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .story{
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Sono', sans-serif;
+        
+        font-size: 26px;
+        margin-bottom: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: url("https://i.pinimg.com/564x/83/43/d7/8343d7ea789256780603ed03a6c4d7df.jpg");
+        }
+}
