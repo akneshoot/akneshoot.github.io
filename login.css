@@ -15,7 +15,7 @@ section{
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 200px;
     
 }
 .box .square{
@@ -74,7 +74,7 @@ section{
 
 
 
-.container {
+.container1 {
     padding: 40px;
     position: relative;
     width: 800px;
@@ -151,6 +151,20 @@ section{
     cursor: pointer;
     margin-bottom: 20px;
     font-weight: 600;
+}
+@media (max-width: 736px) {
+
+    .container1 {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    form  {
+        text-align: center;
+    }
+
+
+    
 }
 
 
