@@ -32,7 +32,7 @@
     width: 100%;
   }
   
-  @media(min-width: 540px){
+  @media(min-width: 600px){
     .card-grid{
       grid-template-columns: repeat(2, 1fr); 
     }
@@ -160,25 +160,7 @@
     top: 300px;
     
   }
-  .why{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 30px;
-    
-  }
-  .why h2{
-    margin-left: 300px;
-  }
-  .why ol{
-    margin-left: 300px;
-  }
-  
-  .why li{
-    border: 5px solid #31547c;
-    border-radius: .5rem;
-    
-    width: 1000px;
-  }
+
  .bb h2{
     margin-top: 50px;
     margin-left: 700px;
@@ -219,7 +201,7 @@
     }
 }
 
-.container {
+.container1  {
     width: 65%;
     padding: 5% 10%;
     
@@ -297,14 +279,6 @@ form h1:nth-of-type(2) {
 }
 
 
-
-
-.btns {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
 .btns button {
     margin: 3px 0;
     height: 30px;
@@ -336,6 +310,60 @@ input:focus,
 button:focus {
     outline: none;
 }
+@media (max-width:991px){
+ 
+  .bb h2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .vkollective {
+    margin-left: 10px;
+ }
+
+   .wrapper {
+    position: relative;
+    font-family: "Arimo";
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 0px;
+    right: 0px;
+    margin-right: 10px;
+    -webkit-box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    background: url(https://phonoteka.org/uploads/posts/2021-06/1624152168_12-phonoteka_org-p-oboi-na-rabochii-stol-mramor-krasivo-16.jpg);
+    }
+    .container1 {
+    width: 100%;
+    }
+    .container1 .btns button{
+     
+      width: 50%;
+    }
+    .container1 h1{
+      width: 20%;
+    }
+  form h1 {
+    text-align: center;
+  }
+
+.name,
+.gr,
+.prikrep,
+.info,
+.btns button {
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+
+
+
+
+}
+
 
 
 
