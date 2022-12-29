@@ -163,11 +163,13 @@
 
  .bb h2{
     margin-top: 50px;
-    margin-left: 700px;
+    margin-left: 200px;
+    margin-right: 200px;
     
  }
  .vkollective {
-    margin-left: 700px;
+  margin-left: 200px;
+  margin-right: 200px;
  }
  @import url('https://fonts.googleapis.com/css?family=Arimo');
 
