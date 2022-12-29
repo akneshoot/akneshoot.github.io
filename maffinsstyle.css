@@ -7,11 +7,14 @@ header{
   header .logo{
       width: 150px;
       display:block;
+      
   }
+ 
   .image-gallery {
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 200px;
+    
     
     display: flex;
     flex-wrap: wrap;
@@ -74,5 +77,20 @@ header{
     .image-gallery li:hover .money{
       transform: scale(1);
     }
+    @media (max-width:991px){
+      .image-gallery {
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin-left: 130px;
+        
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        }
+    }
+    
+
   
   
